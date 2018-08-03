@@ -1,0 +1,17 @@
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.Test.deps.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.Test.runtimeconfig.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.Test.runtimeconfig.dev.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.Test.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.Test.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\bin\Debug\netcoreapp2.1\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.csprojAssemblyReference.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.AssemblyInfoInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.AssemblyInfo.cs
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.csproj.CopyComplete
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Domain\obj\Debug\netcoreapp2.1\BookStore.Domain.Test.pdb

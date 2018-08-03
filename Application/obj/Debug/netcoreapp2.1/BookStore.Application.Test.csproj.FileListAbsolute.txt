@@ -1,0 +1,14 @@
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\BookStore.Application.Test.deps.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\BookStore.Application.Test.runtimeconfig.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\BookStore.Application.Test.runtimeconfig.dev.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\BookStore.Application.Test.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\bin\Debug\netcoreapp2.1\BookStore.Application.Test.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.AssemblyInfoInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.AssemblyInfo.cs
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Application\obj\Debug\netcoreapp2.1\BookStore.Application.Test.csprojAssemblyReference.cache

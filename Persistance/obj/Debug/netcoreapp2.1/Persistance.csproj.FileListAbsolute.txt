@@ -1,0 +1,14 @@
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Persistance.deps.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Persistance.runtimeconfig.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Persistance.runtimeconfig.dev.json
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Persistance.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\bin\Debug\netcoreapp2.1\Persistance.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.AssemblyInfoInputs.cache
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.AssemblyInfo.cs
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.dll
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.pdb
+C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\Persistance\obj\Debug\netcoreapp2.1\Persistance.csprojAssemblyReference.cache

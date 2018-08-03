@@ -1,0 +1,156 @@
+[2018-07-24 16:01:00.095 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\AuthorModels\AuthorDto.cs:line 18
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\BookModels\BookDto.cs:line 15
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2018-07-24 16:02:45.204 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\AuthorModels\AuthorDto.cs:line 18
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\BookModels\BookDto.cs:line 15
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2018-07-24 16:35:50.036 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\AuthorModels\AuthorDto.cs:line 18
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\BookModels\BookDto.cs:line 15
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2018-07-24 16:38:43.071 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\AuthorModels\AuthorDto.cs:line 18
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\BookModels\BookDto.cs:line 15
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2018-07-24 16:40:08.230 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\AuthorModels\AuthorDto.cs:line 18
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Models\BookModels\BookDto.cs:line 15
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo) in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.Persistance\Services\BookService.cs:line 36
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2018-07-24 16:42:52.561 +03:00 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookStore.Persistance.Models.AuthorModels.AuthorDto..ctor(Author author)
+   at BookStore.Persistance.Models.BookModels.BookDto..ctor(Book book)
+   at BookStore.Persistance.Services.BookService.<>c.<ReturnBooksDependingOnParameter>b__4_0(Book b)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at BookStore.Persistance.Services.BookService.ReturnBooksDependingOnParameter(IBookSpecification specification, IBookRepository bookRepo)
+   at BookStore.WebAPI.Controllers.BookController.GetAllBooks() in C:\Users\aleksandar.datsov\source\repos\BookStore2\Source\BookStore.WebAPI\Controllers\BookController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

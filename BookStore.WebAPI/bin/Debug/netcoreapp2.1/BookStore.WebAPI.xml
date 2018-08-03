@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BookStore.WebAPI.Controllers.AuthorController.GetAllAuthors">
+            <summary>
+            Get all Authors from database
+            </summary>
+            <returns>List of Authors</returns>
+        </member>
+        <member name="M:BookStore.WebAPI.Controllers.AuthorController.AddAuthor(System.String)">
+            <summary>
+            Operation for adding new author to database
+            </summary>
+            <param name="name">The name of the desired Author</param>
+            <returns>Status 200 if everything is Ok</returns>
+        </member>
+        <member name="M:BookStore.WebAPI.Controllers.BookController.Get(System.String,System.String,System.String)">
+            <summary>Get books depending on passed parameters</summary>
+            <param name="author">The name of the desired author. By default is null.</param>
+            <param name="publisher">The name of the desired publisher. By default is null.</param>
+            <param name="title">The name of the desired title. By default is null.</param>
+            <returns>List of Books</returns>
+        </member>
+        <member name="M:BookStore.WebAPI.Controllers.PublisherController.GetAllPublishers">
+            <summary>
+            Get all publishers from database
+            </summary>
+            <returns>List of Publishers</returns>
+        </member>
+        <member name="M:BookStore.WebAPI.Controllers.PublisherController.AddPublisher(System.String)">
+            <summary>
+            Operation for adding new publisher to database
+            </summary>
+            <param name="name">The name of the desired Publisher</param>
+            <returns>Status 200 if everything is Ok</returns>
+        </member>
+    </members>
+</doc>
